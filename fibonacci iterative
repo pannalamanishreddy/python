@@ -1,0 +1,8 @@
+n=int(input())
+l=[0,1]
+k=2
+while(n>2):
+    l.append(l[k-2]+l[k-1])
+    k=len(l)
+    n=n-1
+print(l)
